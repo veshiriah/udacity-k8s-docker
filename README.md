@@ -45,7 +45,7 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 This Microservices project contains server various files:
 
-appy.py - the Python 3.7 application that runs prediction app
+app.py - the Python 3.7 application that runs prediction app
 Dockerfile - file to containerize the app.py
 make_predictions.sh - file with sample payload for testing purposes
 Makefile - installs dependencies

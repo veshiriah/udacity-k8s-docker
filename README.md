@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![<veshiriah>](https://circleci.com/gh/veshiriah/udacity-k8s-docker.svg?style=svg)](<https://app.circleci.com/pipelines/github/veshiriah/udacity-k8s-docker>)
 
 ## Project Overview
 
@@ -40,3 +40,16 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### File Description
+
+This Microservices project contains server various files:
+
+appy.py - the Python 3.7 application that runs prediction app
+Dockerfile - file to containerize the app.py
+make_predictions.sh - file with sample payload for testing purposes
+Makefile - installs dependencies
+requirements.txt - list of dependencies
+run_docker.sh - bash script that runs the docker container
+run_kubernetes.sh - bash script that runs the k8s
+upload_docker.sh - bash script that uploads docker container to the repo
